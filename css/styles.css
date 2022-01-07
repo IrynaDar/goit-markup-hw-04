@@ -127,8 +127,9 @@ color: var(--accent-color);
 .current {
   color: var(--accent-color);
 }
-.link-tel {
-  margin-left: 50px;
+.header-mail, .header-tel {
+  display: flex;
+  align-items: center;
 }
 .link-mail,
 .link-tel {
@@ -138,7 +139,8 @@ color: var(--accent-color);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color:var(--second-text-color)
+  color:var(--second-text-color);
+  flex-direction: row-reverse;
 }
 .link-mail:hover,
 .link-mail:focus,
@@ -146,13 +148,31 @@ color: var(--accent-color);
 .link-mail:focus {
   color: var(--accent-color);
 }
+
 .mail-icon {
-  height: 12px;
-  width: 16px;
+  display: flex; 
+  margin-right: 10px;
+  fill: currentColor;
 }
+
 .phone-icon {
-  height: 16px;
-  width: 10px;
+  display: flex;
+  margin-right: 10px;
+  margin-left: 30px;
+  fill: currentColor;
+}
+.mail-icon:hover,
+.mail-icon:focus,
+.phone-icon:hover,
+.phone-icon:focus {
+  fill: var(--accent-color);
+}
+
+.header-mail:hover .mail-icon,
+.header-mail:focus .mail-icon,
+.header-tel:hover .phone-icon,
+.header-tel:focus .phone-icon {
+  fill: var(--accent-color);
 }
 /* --------герой------------ */
 .hero {
