@@ -146,7 +146,14 @@ color: var(--accent-color);
 .link-mail:focus {
   color: var(--accent-color);
 }
-
+.mail-icon {
+  height: 12px;
+  width: 16px;
+}
+.phone-icon {
+  height: 16px;
+  width: 10px;
+}
 /* --------герой------------ */
 .hero {
   background-color: var(--back-color);
