@@ -247,7 +247,13 @@ margin-right: auto;
 .advantages-list .item:nth-child(4n) {
   margin-right: 0px;
 }
-
+.advant-class {
+  width: 270px;
+  height: 120px;
+  background-color: var(--second-back-color);
+  display: flex;
+  align-items: center;
+}
   .advantages-title {
   font-family: inherit;
   font-weight: 700;
@@ -257,6 +263,7 @@ margin-right: auto;
   text-transform: uppercase;
   color: var(--text-color);
   margin-bottom: 10px;
+  margin-top: 30px;
   }
 
 .advantages-text {
