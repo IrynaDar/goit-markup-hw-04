@@ -392,6 +392,52 @@ margin-right: auto;
 .team-soc-icon {
   fill: var(--icon-color)
 }
+
+/* --------постоянные-клиенты------------ */
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-title {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1,16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  margin-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+.clients-item + .clients-item {
+  margin-left: 30px;
+}
+.client-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.client-icon {
+  fill: var(--icon-color);
+}
+.client-link:hover,
+.client-link:focus {
+  border-color: var(--accent-color);
+}
+.client-link:hover .client-icon,
+.client-link:focus .client-icon {
+  fill: var(--accent-color);
+}
+
 /* --------футер------------ */
 .footer {
   background-color: var(--back-color);
@@ -452,7 +498,7 @@ span.part-color {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1,14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--btn-color);
@@ -522,7 +568,7 @@ span.part-color {
   margin-right: 8px;
 }
 .asign .portfolio-title {
-font-family: Roboto;
+font-family: inherit;
 font-weight: 700;
 font-style: normal;
 font-weight: bold;
