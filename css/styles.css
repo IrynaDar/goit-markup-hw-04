@@ -141,7 +141,8 @@ color: var(--accent-color);
   line-height: 1.14;
   letter-spacing: 0.02em;
   color:var(--second-text-color);
-  flex-direction: row-reverse;
+  display: flex ;
+  justify-content: center;
 }
 .link-mail:hover,
 .link-mail:focus,
